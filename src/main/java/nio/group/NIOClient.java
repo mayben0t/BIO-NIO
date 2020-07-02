@@ -89,7 +89,7 @@ public class NIOClient {
     public void sendInfo()throws Exception{
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
-        System.out.println("打算发消息:"+s);
+//        System.out.println("打算发消息:"+s);
 //        for (SelectionKey selectedKey : selector.selectedKeys()) {
 //            selectedKey.attach()
 //        }

@@ -23,7 +23,7 @@ public class NIOServer {
     public NIOServer() throws Exception{
         this.serverSocketChannel = ServerSocketChannel.open();
         this.selector = Selector.open();
-        serverSocketChannel.bind(new InetSocketAddress(HOST,PORT));
+        serverSocketChannel.socket().bind(new InetSocketAddress(HOST,PORT));
         System.out.println("服务器已启动,localAddress:"+serverSocketChannel.getLocalAddress());
         serverSocketChannel.configureBlocking(false);
         //注册到selector上 监听连接事件
@@ -63,36 +63,42 @@ public class NIOServer {
 
                     }
                     if(currentSelectionKey.isReadable()){
-                        SocketChannel channel = (SocketChannel) currentSelectionKey.channel();
-                        ByteBuffer allocate = ByteBuffer.allocate(1024);
-//                        ByteBuffer allocate = (ByteBuffer) currentSelectionKey.attachment();
-
-                        boolean isClose = false;
-                        try {
-
-                            channel.read(allocate);
-                        } catch (IOException e) {
-                            try {
-                                String msg = channel.getRemoteAddress()+" 下线了...";
-                                System.out.println("服务端打算发送离线消息: "+msg);
-                                sendInfoToOtherClients(msg,channel);
-                                isClose = true;
-                            } catch (IOException ex) {
-                                ex.printStackTrace();
-                            }
-                        }
-                        if(!isClose) {
-                            String msg = new String(allocate.array());
-                            try {
-                                msg = channel.getRemoteAddress() + " 说:" + msg;
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                            sendInfoToOtherClients(msg, channel);
-                        }
+                        readInfo(currentSelectionKey);
                     }
                     selectionKeyIterator.remove();
                 }
+            }
+        }
+    }
+
+    private void readInfo(SelectionKey currentSelectionKey) {
+
+        SocketChannel channel = (SocketChannel) currentSelectionKey.channel();
+        ByteBuffer allocate = ByteBuffer.allocate(1024);
+//                        ByteBuffer allocate = (ByteBuffer) currentSelectionKey.attachment();
+
+        try {
+
+            int read = channel.read(allocate);
+            if(read>0) {
+                String msg = new String(allocate.array());
+                try {
+                    msg = channel.getRemoteAddress() + " 说:" + msg;
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                sendInfoToOtherClients(msg, channel);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            try {
+                String msg = channel.getRemoteAddress()+" 下线了...";
+                System.out.println("服务端打算发送离线消息: "+msg);
+//                                sendInfoToOtherClients(msg,channel);
+                currentSelectionKey.cancel();
+                channel.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
             }
         }
     }
