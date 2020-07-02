@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/os/SystemMonitor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/os/ZipDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-class-worker/src/main/filters/filter_dev.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-class-worker/src/main/filters/filter_product.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-class-worker/src/main/filters/filter_release.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-class-worker/src/main/filters/filter_test.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-class-worker/src/main/resources/config/rocketApplicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-class-worker/src/main/resources/dubbo_config/class-worker-app.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-kaike-worker/src/main/filters/filter_dev.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-kaike-worker/src/main/filters/filter_product.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-kaike-worker/src/main/filters/filter_release.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-kaike-worker/src/main/filters/filter_test.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-studyrecord-worker/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-studyrecord-worker/src/main/resources/config/rabbitApplicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class-workers/koo-studyrecord-worker/src/main/resources/dubbo_config/studyrecord-worker-app.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class/koo-class-service/src/test/java/com/koolearn/test/TestUserCourseTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-class/koo-class-webapp/src/main/java/com/koolearn/clazz/tongyong/controller/TongYongLessonController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/api/src/main/java/com/koolearn/sharks/service/ICustomizeMessageService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/api/src/main/java/com/koolearn/sharks/service/ILiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/api/src/main/java/com/koolearn/sharks/service/IProductDelayServiceRelationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/api/src/main/resources/dubbo_config/sharks-consumer.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/data-change-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/err.log">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/filters/filter_release.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/java/com/koolearn/sharks/dao/ProductDelayServiceRelationMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/java/com/koolearn/sharks/dao/mapper/LiveMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/java/com/koolearn/sharks/dao/mapper/ProductDelayServiceRelationMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/java/com/koolearn/sharks/service/impl/CustomizeMessageServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/java/com/koolearn/sharks/service/impl/LiveServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/java/com/koolearn/sharks/service/impl/ProductDelayServiceRelationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/resources/dubbo_config/sharks-provider.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/service/src/main/resources/koolearn_configs_t.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/webapp/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/webapp/src/main/java/com/koolearn/ImportForExportVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/webapp/src/main/java/com/koolearn/sharks/controller/LiveController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/webapp/src/main/java/com/koolearn/sharks/controller/TempForImport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-manage/webapp/src/main/resources/dubbo_config/koo-sharks-app.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-productsearch/service/src/main/java/com/koolearn/productsearch/service/impl/ProductSearchServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-productsearch/service/src/main/resources/app_config/koo-productsearch-service.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-productsearch/service/src/test/java/com/koolearn/productsearch/test/ProductSearchServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../koo-productsearch/webapp/src/main/java/com/koolearn/sharks/product/search/controller/searchapi/ProductSearchEsApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../nginx-demo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../nginx-demo/src/main/java/com/example/nginxdemo/NginxDemoApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../nginx-demo/src/main/java/com/example/nginxdemo/controller/HelloController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../summer_plan/webapp/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../summer_plan/webapp/src/main/java/wx/cloud/jen/JenApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../summer_plan/webapp/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/0d511684-f7b4-45ba-b195-553f8493f3e0/console.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
